@@ -1,10 +1,11 @@
 /* Grupo Sala 01
 
 Allan Cardoso
-Ezio Roberto Lorenzetti 
+Ezio Roberto Lorenzetti da Silva
 Gabriella Gomes de Lima
 Lucas Alcântara
 Lucas Mota Barbosa da Silva
+Rodrigo da Silva Araújo
 */
 
 /*  1 - Pipoca – 10 segundos (padrão);
