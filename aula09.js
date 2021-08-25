@@ -2,9 +2,9 @@
 
 Allan Cardoso
 Ezio Roberto Lorenzetti 
-Gabriela Gomes de Lima
+Gabriella Gomes de Lima
 Lucas Alcântara
-Lucas <ota Barbosa da Silva
+Lucas Mota Barbosa da Silva
 */
 
 /*  1 - Pipoca – 10 segundos (padrão);
