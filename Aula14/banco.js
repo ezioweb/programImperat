@@ -1,11 +1,3 @@
-/* 
-Sala 06 - participantes:
-
-Allan Cardoso
-Ezio Roberto Lorenzetti
-Filipe Campos Fontes
-Murilo Alex Aparecido da Silva */
-
 let contaBancaria = {
     numConta: 1234567890,
     tipoConta: "Conta Corrente",//1 é Conta Corrente e 2 Conta Poupança
@@ -22,9 +14,6 @@ function ContaBancaria(mConta,mTipoConta,mSaldo,mTitular) {
     this.titular = mTitular;
 }
 
-/* let conta1 = new ContaBancaria(2222,'corrente',500,'Nome Sobrenome'); */
-
-
 let conta1 = new ContaBancaria(5486273622,'Conta Corrente',500,'Abigael Natte');
 let conta2 = new ContaBancaria(1183971869,'Conta Poupança',500,'Ramon Connell');
 let conta3 = new ContaBancaria(9582019689,'Conta Poupança',500,'Jarret Lafuente');
@@ -39,11 +28,6 @@ let conta10 = new ContaBancaria(2138105881,'Conta Poupança',500,'Bendite Hugget
 let lista = [conta1,conta2,conta3,conta4,conta4,conta5,conta5,conta6,conta7,conta8,conta9,conta10];
 
 
-/* console.log(conta1.conta);
-console.log(conta1.tipoConta);
-console.log(conta1.saldo);
-console.log(conta1.titular); */
-
 let banco = {
     clientes:lista,
     consultarCliente:function(nome){
@@ -57,26 +41,8 @@ let banco = {
     }
 }
 
-depositar:function(nome,valor){
+/* depositar:function(nome,valor){
     let cliente = this.consultarCliente(nome);
         cliente.saldo += valor;
-}
-
-
-
-/* let = conta = {
-    numero:123,
-    tipo:"Conta corrente"
-    saldo:500.25,
-    titular:"Lucas"
-}
-
-function Conta(mConta,mTipo,mSaldo,mTitular) {
-    this.conta = mConta;
-    this.tipoConta = mTipo;
-    this.saldo = mSaldo;
-    this.titular = mTitular;
-}
-let conta1 = new Conta(123,"Conta corrente",500.25,"Ezio Roberto");
-
-console.log(conta1); */
+} */
+module.exports = banco;
